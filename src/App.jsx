@@ -5,7 +5,7 @@ import './App.css';
 import Usercard from './components/usercard.jsx';
 
 function App() {
-  const cards = Array.from({ length: 10 });
+  const cards = Array.from({ length: 100 });
   const gridStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(4, 1fr)',
